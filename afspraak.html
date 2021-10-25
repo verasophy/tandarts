@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Tandartsafspraak </title>
+</head>
+<body>
+<h1> Tandartsafspraak </h1>
+<p>
+<b> Over onze praktijk </b> <br>
+Complete mondzorg in een prettige sfeer. Onze professionele en gezellige praktijk
+is gevestigd in het klassieke pand aan de Bergweg te Olderhaven. 
+De praktijk levert
+al jaren hoog kwalitatieve zorg aan patiënten vanuit Olderhaven en omgeving en
+is makkelijk bereikbaar. <br>
+In onze praktijk wordt een moderne en kwalitatief hoogwaardige
+tandheelkunde aangeboden. U kunt bij ons terecht voor een reguliere
+tandheelkunde, maar ook voor orthodontie voor kinderen en volwassenen,
+implantaten, esthetische tandheelkunde, kronen en bruggen.</p>
+
+<figure>
+<img src="https://p2.piqsels.com/preview/460/42/385/dentist-dental-office-dentistry.jpg"
+alt="praktijk" Title ="tandartspraktijk"
+width="300" height="200">
+<img src="https://p0.piqsels.com/preview/492/186/552/men-portraits-dentist-medical.jpg "
+alt="collega" title="collega"
+width="300" height="200">
+<img src="https://live.staticflickr.com/2725/4088726983_5caf5a11de_b.jpg"
+alt="het pand" title="het pand"
+width="300" height="200">
+<figcaption> Een aantal foto's van onze praktijk</figcaption>
+</figure>
+
+
+<form id="contactform" action= "https://formspree.io/f/xrgrjagv" method="post">
+  <fieldset>
+    <legend><b>Persoonlijke gegevens </b> </legend> <br>
+    <label for="naam">Naam:</label>
+    <input id="naam" type="text" name= "naam"> <br><br>
+    <input type="radio" name="geslacht" value="Man" checked> Man
+    <input type="radio" name="geslacht" value="Vrouw"> Vrouw
+    <input type="radio" name="geslacht" value="Anders"> Anders <br><br>
+    <label for="adres">Adres:</label>
+    <input id="adres" type="text" name= "adres"><br><br>
+    <label for="postcode">Postcode:</label>
+    <input type= "text" id= "postcode" name= "postcode"> <br><br>
+
+    <label for= "woonplaats">Woonplaats:</label>
+    <input type= "text" id="woonplaats" name= "woonplaats" <br><br><br>
+    <label for= "emailadres">Emailadres: </label>
+    <input id = "emailadres" type= "email" name= "emailadres"> <br><br>
+
+    <label for= "telefoonnummer"> Telefoonnummer:  </label>
+    <input id= "telefoonnummer" type= "tel" name= "telefoonnummer">
+
+    </fieldset>
+
+<fieldset>
+<legend><b>Beschrijving van de klachten</b></legend><br>
+Selecteer uw klachten
+<input type= "checkbox" name= "klachten" value= "ja"> Pijn
+<input type= "checkbox" name= "klachten" value= "ja"> Hevige pijn
+<input type= "checkbox" name= "klachten" value= "ja"> Jeuk
+<input type= "checkbox" name= "klachten" value= "ja"> Zwelling
+<input type= "checkbox" name= "klachten" value= "ja"> Roodheid
+<input type= "checkbox" name= "klachten" value= "ja"> Kloppend gevoel
+<input type= "checkbox" name= "klachten" value= "ja"> Koorts <br><br>
+<label for= "foto"> Upload hier een foto van uw gebit </label>
+<input type= "file" id= "foto" name= "foto"> <br><br>
+</fieldset>
+<fieldset>
+<legend><b>Toelichting van de klachten</b></legend><br>
+Licht hieronder uw klachten toe <br>
+<textarea name="toelichting" maxlength="1500"></textarea> <br><br>
+Selecteer hier de gewenste datum voor uw afspraak <br>
+<input type = "date" name= "datum" min= "2021-09-19" max= "2022-12-31"> <br><br>
+<button type ="send" value="Verzend"> <b>Verzend</b> </button>
+
+</fieldset>
+</form>
+</body>
+</html>
